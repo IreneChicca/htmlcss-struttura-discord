@@ -1,6 +1,85 @@
+/********** GENERICS ***********/
+
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 
+}
+
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.col-1-6 {
+    width: calc(100% / 6);
+}
+
+.col-4-6 {
+    width: calc(100% / 6*4);
+}
+
+
+
+.test {
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.bg-light {
+    background-color: lightblue;
+    padding: 10px;
+
+}
+
+.pad {
+    padding: 10px;
+}
+
+.border {
+    border: 1px dashed black;
+}
+
+
+.txt-sx {
+    text-align: start;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-dx {
+    text-align: end;
+}
+
+
+/********** UTILITIES ************/
+
+nav {
+    background-color: goldenrod;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
