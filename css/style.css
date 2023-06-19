@@ -113,6 +113,12 @@ body {
 
 .bg-grey {
     background-color: #d3d3d3;
+
+}
+
+.bg-green {
+    background-color: green;
+    height: 600px;
 }
 
 /********** UTILITIES ************/
