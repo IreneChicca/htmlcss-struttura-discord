@@ -131,7 +131,7 @@ body {
 
 .bg-black {
     background-color: #23272a;
-    border-bottom: 1px solid white;
+
 }
 
 
@@ -143,6 +143,14 @@ body {
 .bg-turq {
     background-color: darkturquoise;
     height: var(--height)
+}
+
+.bg-aqua {
+    background-color: aquamarine;
+}
+
+.bg-rose {
+    background-color: #ffb6c1;
 }
 
 /********** UTILITIES ************/
@@ -158,5 +166,17 @@ a {
 }
 
 p {
-    padding: 10px;
+    padding: 8px;
+
+}
+
+footer {
+    border-top: 1px solid white;
+
+}
+
+
+.test {
+    margin-top: 15px;
+    justify-content: space-between;
 }
