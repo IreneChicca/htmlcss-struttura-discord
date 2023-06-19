@@ -1,12 +1,14 @@
 /********** GENERICS ***********/
 
+:root {
+    --height: 300px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
 }
-
 
 html,
 body {
@@ -22,15 +24,9 @@ body {
     width: calc(100% / 6*4);
 }
 
-
-
-.test {
-
-    justify-content: center;
-    align-items: center;
+.col-5-6 {
+    width: calc(100% / 6*5);
 }
-
-
 
 
 .container {
@@ -39,20 +35,18 @@ body {
 }
 
 
-
 .flex {
     display: flex;
 }
 
-.bg-light {
-    background-color: lightblue;
-    padding: 10px;
-
+.center {
+    justify-content: center;
 }
 
 .pad {
     padding: 10px;
 }
+
 
 .border {
     border: 1px dashed black;
@@ -69,6 +63,29 @@ body {
 
 .txt-dx {
     text-align: end;
+}
+
+
+/*** BG COLORS ***/
+
+.bg-light {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.bg-violet {
+    background-color: violet;
+    height: var(--height);
+}
+
+.bg-blue {
+    background-color: blue;
+    padding: 30px;
+
+}
+
+.bg-pink {
+    background-color: pink;
 }
 
 
