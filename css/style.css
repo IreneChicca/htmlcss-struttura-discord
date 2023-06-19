@@ -110,6 +110,11 @@ body {
 
 }
 
+
+.bg-grey {
+    background-color: #d3d3d3;
+}
+
 /********** UTILITIES ************/
 
 nav {
