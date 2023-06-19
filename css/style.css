@@ -1,7 +1,7 @@
 /********** GENERICS ***********/
 
 :root {
-    --height: 300px;
+    --height: 350px;
 }
 
 * {
@@ -25,7 +25,7 @@ body {
 }
 
 .col-5-6 {
-    width: calc(100% / 6*5);
+    width: 900px;
 }
 
 
@@ -75,7 +75,7 @@ body {
 
 .bg-violet {
     background-color: violet;
-    height: var(--height);
+    height: 300px;
 }
 
 .bg-blue {
